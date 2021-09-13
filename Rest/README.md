@@ -6,3 +6,4 @@ API stands for Application Programming Interface and basically it allows one pro
 
 References:
 - [1](https://www.youtube.com/watch?v=7YcW25PHnAA)
+- [2](https://restfulapi.net/)
