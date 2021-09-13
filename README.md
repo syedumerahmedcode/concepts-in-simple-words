@@ -1,4 +1,4 @@
-# concepts
+# concepts in simple words
 
 ## Introduction
 
