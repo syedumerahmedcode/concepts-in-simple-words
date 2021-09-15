@@ -2,7 +2,7 @@
 
 **API**
 
-API stands for Application Programming Interface and basically it allows one program to talk to another program.[1]
+API stands for Application Programming Interface and basically it allows one program to talk to another program.
 
 **REST**
 
@@ -19,6 +19,19 @@ API stands for Application Programming Interface and basically it allows one pro
 - *Layered System*: The system consists of multiple layers such that each layer only sees the immediate layer with which it is interacting.
 - *Uniform interface*:  It defines a interface constraint between the client and the server.Request and responses use HTTP and HTTPS as transfer protocol. Request uses HTTP verbs like GET, PUT and so on. Response consists of HTTP status codes like 200, 404 etc.
 - *Code on demand*: This constraint is optional. The server can temporarily extend client by downloading the logic from the server to the client. 
+
+**Resource**
+
+- Any information that can be named is a resource. For example: A document, image, collection of other resources etc.
+
+**Purpose of URL**
+
+- URL is used to identify where the resource is located.
+
+**What are REST methods**
+
+- Rest methods are used to access Rest resources.
+- One can invoke GET,POST,PUT,DELETE etc on this URL to invoke the resource.
  
 
 References:
