@@ -34,12 +34,19 @@ API stands for Application Programming Interface and basically it allows one pro
 
 - URL is used to identify where the resource is located.
 
+**URI**
+
+- URI stands for Uniform Resource Identifier.
+- Used for identifying a resource.
+- It has the following format: <protocol>://<service-name>/<ResourceType>/<ResourceId>
+
 **What are REST methods**
 
 - Rest methods are used to access Rest resources.
 - One can invoke GET,POST,PUT,DELETE etc on this URL to invoke the resource.
- 
+- POST is used for insertion whereas PUT is used for modifying a resource.
 
 References:
 - [1](https://www.youtube.com/watch?v=7YcW25PHnAA) REST API concepts and examples
 - [2](https://restfulapi.net/) REST API Tutorial
+- [3](https://www.interviewbit.com/rest-api-interview-questions/): REST API Basic Interview Questions
