@@ -46,6 +46,11 @@ API stands for Application Programming Interface and basically it allows one pro
 - One can invoke GET,POST,PUT,DELETE etc on this URL to invoke the resource.
 - POST is used for insertion whereas PUT is used for modifying a resource.
 
+**Idempotent operation**
+
+- If an operation with the same set of inputs produces the same output even when it is called multiple times, then it is an idempotent operation.
+- GET, PUT(?) and DELETE(?) are idempotent whereas POST operation is not idempotent.
+
 References:
 - [1](https://www.youtube.com/watch?v=7YcW25PHnAA) REST API concepts and examples
 - [2](https://restfulapi.net/) REST API Tutorial
