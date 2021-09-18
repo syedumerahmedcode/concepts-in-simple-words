@@ -71,6 +71,19 @@ whereas
 - If an operation with the same set of inputs produces the same output even when it is called multiple times, then it is an idempotent operation.
 - GET, PUT(?) and DELETE(?) are idempotent whereas POST operation is not idempotent.
 
+**JAX-RS**
+
+- JAX-RS stand for Java API for RESTful Web service.
+- A set of Java-based APIs that are provided in the Java EE which is useful in the implementation and development of RESTful web services.
+
+Features of JAX-RS are:
+
+- Open link 3 for more information.
+
+**Some key annotations**
+
+- 
+
 
 
 
