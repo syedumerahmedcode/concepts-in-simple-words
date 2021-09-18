@@ -28,7 +28,7 @@ API stands for Application Programming Interface and basically it allows one pro
 
 **Resource**
 
-- Any information that can be named is a resource. For example: A document, image, collection of other resources etc.
+- Any information that can be named is a resource. For example: A document, image, collection of other resources etc. Resources are identified with: their URI, HTTP methods they support, and request/response data type and format of data.
 
 **Purpose of URL**
 
