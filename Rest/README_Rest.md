@@ -82,7 +82,11 @@ Features of JAX-RS are:
 
 **Some key annotations**
 
-- 
+- @Path: It represents the relative URI path to the REST resource.
+- @PathParam: Defines parameters defined in the path of the URI. For example: In _.../v1/accounts/{id}_, {id} is a path parameter. This maps to _@PathVariable_ annotation in SpringBoot.
+- @QueryParam: Defines parameters which are defined in the query part of a URI. For example: In _.../v1/accounts/?id=123_, id=123 is a query parameter.
+- @Produces: What MIME media types are produced by the server and send to the client. For example: _MediaType.APPLICATION__JSON_.
+- @Consumes: What MIME media types are consumed(i.e. accepted) by the server. 
 
 
 
