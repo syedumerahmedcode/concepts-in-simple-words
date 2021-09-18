@@ -38,7 +38,7 @@ API stands for Application Programming Interface and basically it allows one pro
 
 - URI stands for Uniform Resource Identifier.
 - Used for identifying a resource.
-- It has the following format: <protocol>://<service-name>/<ResourceType>/<ResourceId>
+- It has the following format: <protocol>://<service-name>/<ResourceType>/<ResourceId>. For example: http://maps.googleapis.com/maps/api/geocode/json. Here: <service-name>==> maps.googleapis.com whereas <ResourceType>==>/maps, /api, /geocode and /json.
 
 **What are REST methods**
 
@@ -51,7 +51,14 @@ API stands for Application Programming Interface and basically it allows one pro
 - If an operation with the same set of inputs produces the same output even when it is called multiple times, then it is an idempotent operation.
 - GET, PUT(?) and DELETE(?) are idempotent whereas POST operation is not idempotent.
 
+
+
+
+
+
+
+
 References:
-- [1](https://www.youtube.com/watch?v=7YcW25PHnAA) REST API concepts and examples
-- [2](https://restfulapi.net/) REST API Tutorial
+- [1](https://www.youtube.com/watch?v=7YcW25PHnAA): REST API concepts and examples
+- [2](https://restfulapi.net/): REST API Tutorial
 - [3](https://www.interviewbit.com/rest-api-interview-questions/): REST API Basic Interview Questions
