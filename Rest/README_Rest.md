@@ -38,7 +38,27 @@ API stands for Application Programming Interface and basically it allows one pro
 
 - URI stands for Uniform Resource Identifier.
 - Used for identifying a resource.
-- It has the following format: <protocol>://<service-name>/<ResourceType>/<ResourceId>. For example: http://maps.googleapis.com/maps/api/geocode/json. Here: <service-name>==> maps.googleapis.com whereas <ResourceType>==>/maps, /api, /geocode and /json.
+- It has the following format: 
+
+```
+
+<protocol>://<service-name>/<ResourceType>/<ResourceId>
+
+```
+. For example: http://maps.googleapis.com/maps/api/geocode/json. Here: 
+
+```
+<protocol>://<service-name>/<ResourceType>/<ResourceId>
+
+<service-name>==> maps.googleapis.com
+```
+
+whereas 
+
+```
+<ResourceType>==>/maps, /api, /geocode and /json.
+```
+
 
 **What are REST methods**
 
