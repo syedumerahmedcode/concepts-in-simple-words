@@ -9,6 +9,12 @@ API stands for Application Programming Interface and basically it allows one pro
 - REST Stands for REpresentational State Transfer.
 - It is an architectural style for distributed Hypermedia systems.
 
+**Advantages of REST**
+
+- REST is a lightweight protocol compared to SOAP.
+- No contract is defined between a client and the server. Hence, it is loosely coupled.
+- REST supports multiple technologies for data transfer such xml , json, text, image etc. whereas SOAP supports xml but not json. 
+
 **6 guiding constraints of REST**
 
 - Also known as 6 underlying constraints of REST.
