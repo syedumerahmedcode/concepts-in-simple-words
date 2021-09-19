@@ -65,6 +65,7 @@ whereas
 - Rest methods are used to access Rest resources.
 - One can invoke GET,POST,PUT,DELETE etc on this URL to invoke the resource.
 - POST is used for insertion whereas PUT is used for modifying a resource.
+- Two less commonly used methods are: _OPTIONS_: It indicates which techniques are supported and _HEAD_: About the request URL it returns meta information.
 
 **Idempotent operation**
 
