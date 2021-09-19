@@ -91,9 +91,12 @@ Features of JAX-RS are:
 **Authentication**
 
 - Refers to providing correct identity.
-- Authentication: Who you are.
+- Authentication: Who are you?
 
+**Authorization**
 
+- Refers to allowing a certain action.
+- Authorization: What can you do?
 
 
 
