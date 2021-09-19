@@ -88,6 +88,13 @@ Features of JAX-RS are:
 - @Produces: What MIME media types are produced by the server and send to the client. For example: _MediaType.APPLICATION__JSON_.
 - @Consumes: What MIME media types are consumed(i.e. accepted) by the server. 
 
+**Authentication**
+
+- Refers to providing correct identity.
+- Authentication: Who you are.
+
+
+
 
 
 
