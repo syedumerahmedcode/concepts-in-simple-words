@@ -99,6 +99,14 @@ Features of JAX-RS are:
 - Refers to allowing a certain action.
 - Authorization: What can you do?
 
+**Methods of Authentication**
+
+- Basic Authentication
+
+**Basic Authentication**
+
+- Every time the client wants to talk to a server using REST AP, it sends its user name and password combination.
+
 
 
 
@@ -110,3 +118,5 @@ References:
 - [1](https://www.youtube.com/watch?v=7YcW25PHnAA): REST API concepts and examples
 - [2](https://restfulapi.net/): REST API Tutorial
 - [3](https://www.interviewbit.com/rest-api-interview-questions/): REST API Basic Interview Questions
+- [4](https://www.youtube.com/watch?v=501dpx2IjGY): Advanced JAX-RS 22 - REST API Authentication Mechanisms
+ 	 	 
