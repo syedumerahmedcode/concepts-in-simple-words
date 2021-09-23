@@ -102,6 +102,10 @@ Features of JAX-RS are:
 **Methods of Authentication**
 
 - Basic Authentication
+- Digest Access Authentication
+- Asymmetric Cryptography
+- OAuth
+- JSON Web Tokens
 
 **Basic Authentication**
 
@@ -111,6 +115,13 @@ Features of JAX-RS are:
 - Server side: Looks at first part of header and knows that it is Basic encoding--> Perform a Base64 decoding on the second part of the string-->Takes the string before the _:_ as user name-->Takes the string after the _:_ as the password--> Finally,it checks if the combination of user name and password matches with what is stored on the server.
 - Encoding is just a way to convert a string into another string i.e. Encoding!=Encryption. Due to this fact, it is **not** a secure method. 
 - One workaround is to always send the encoded string via HTTPS.
+- Why encode? The intent of the encoding is _to encode non-HTTP compatible characters_ that may be in the user name and password into those that are HTTP-compatible.
+
+
+**Disadvantages of Basic Authentication**
+
+- It is subject to replay attacks.
+- No encryption performed.
 
 
 
