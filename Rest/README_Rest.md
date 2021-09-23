@@ -106,7 +106,11 @@ Features of JAX-RS are:
 **Basic Authentication**
 
 - Every time the client wants to talk to a server using REST AP, it sends its user name and password combination.
-
+- In the request header, one passes user name and password.
+- The way to do is: on the client side, add both user name and password as _username:password_ --> Perform a Base64 encoding on this string --> Create a new header key called Authorization --> Value of Authorization: Basic _encodedBase64String_.
+- Server side: Looks at first part of header and knows that it is Basic encoding--> Perform a Base64 decoding on the second part of the string-->Takes the string before the _:_ as user name-->Takes the string after the _:_ as the password--> Finally,it checks if the combination of user name and password matches with what is stored on the server.
+- Encoding is just a way to convert a string into another string i.e. Encoding!=Encryption. Due to this fact, it is **not** a secure method. 
+- One workaround is to always send the encoded string via HTTPS.
 
 
 
