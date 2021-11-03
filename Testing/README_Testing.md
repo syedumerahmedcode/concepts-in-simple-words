@@ -38,10 +38,10 @@
       /     Testing across integration of more than one system    \
      /-----------------------------------------------------        \
     /                    .............................              \
-   /					| Per code commit/Post Commit|               \
-  /					..............................                \
- /							UNIT TESTING                         \
-/					Testing isolated units of code                  \
+   /                     | Per code commit/Post Commit|              \
+  /                      ..............................               \
+ /                               UNIT TESTING                          \
+/                        Testing isolated units of code                 \
 -------------------------------------------------------------------------\
 
 ```
