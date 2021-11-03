@@ -48,4 +48,4 @@
 
 - The lower part of the test is more automated, which makes these tests faster.
 - The more upward we go in the pyramid, the number of tests decreases.
-- Please read [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) for much, much more detailed information as he explains it better than I do.
+- Please read [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) by **Martin Fowler** for much, much more detailed information as he explains it better than I do.
