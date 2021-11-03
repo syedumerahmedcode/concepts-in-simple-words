@@ -26,21 +26,21 @@
                   /           MANUAL TEST            \
                  /------------------------------------\
                 /       ...............................\
-               /        |    E2E Testing              | \
+               /        | E2E Testing/System testing  | \                    CI triggered
               /         ...............................  \
              /                  UI TESTS                  \ 
             /           Testing through a user interface   \
            /------------------------------------------------\
           /     ........................................     \
-         /      |Build Acceptance/Regression Testing   |      \
+         /      |Build Acceptance/Regression Testing   |      \              CI triggered
         /       .......................................        \
        /                   INTEGRATION TESTS                     \
       /     Testing across integration of more than one system    \
      /-----------------------------------------------------        \
     /                    .............................              \
    /                     | Per code commit/Post Commit|              \
-  /                      ..............................               \
- /                               UNIT TESTING                          \
+  /                      ..............................               \       Dev triggered
+ /                               UNIT TESTING                          \      
 /                        Testing isolated units of code                 \
 -------------------------------------------------------------------------\
 
