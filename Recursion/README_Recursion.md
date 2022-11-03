@@ -3,7 +3,7 @@
 **Recursion**
 
 - It is a way of solving problems by having a function calling itself. In other words, it solves a smaller subset of the problem. This goes on till an exit condition is reached.
-
+- - If no base condition (exit condition) is provided, it will continue calling itself without ending resulting in an infinite loop which eventually results to Stack overflow error.
 
 
 
