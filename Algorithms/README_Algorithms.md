@@ -29,4 +29,4 @@ Example: One for loop which contains another for loop within itself
 
 ## Guidelines for measuring Big O
 
-![Guidelines for calculating Complexity](https://github.com/syedumerahmedcode/concept-in-simple-words/concept-in-simple-words/blob/master/algorithms/GuidelinesForCalculatingComplexity.jpg)
+![Guidelines for calculating Complexity](https://github.com/syedumerahmedcode/concepts-in-simple-words/blob/master/Algorithms/GuidelinesForCalculatingComplexity.jpg)
