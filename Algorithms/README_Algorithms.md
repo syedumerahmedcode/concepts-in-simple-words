@@ -7,7 +7,9 @@
 - - Correctness
 - - Efficiency.
 
-- Big O
+![Types of algorithms](https://github.com/syedumerahmedcode/concepts-in-simple-words/blob/master/Algorithms/TypesOfAlgoritms.jpg)
+
+## Big O
 - Big O is used to define the efficiency of an algorithm.
 
 - Time Complexity: A way of showing how the runtime of a function increases as the size of input increases.
