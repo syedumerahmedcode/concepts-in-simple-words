@@ -26,3 +26,8 @@ Example: One for loop followed by another for loop
 Multiply the runtime: O(A*B)
 Example: One for loop which contains another for loop within itself
 ```
+
+## Guidelines for measuring Big O
+
+- Guideline 1
+- Any assignment or if statements that are executed once 
