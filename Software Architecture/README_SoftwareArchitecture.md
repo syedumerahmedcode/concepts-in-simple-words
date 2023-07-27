@@ -1,16 +1,14 @@
 # Software Architecture
 
 
-**6 guiding constraints of REST**
+**Definitions of Software Architecture**
 
-- Also known as 6 underlying constraints of REST.
+There are various (correct) definitions of software architecture.
 
-- *Client-server*: The client and server are two separate systems. 
-- *Stateless*: Server contains no information of client. Client contains all the necessary information for a successful call in its application state.
-- *Cachable*: Cache constraints require that the data within a response to a request be implicitly or explicitly labeled as cacheable or non-cacheable. If a response is cacheable, then a client cache is given the right to reuse that response data for later, equivalent requests.
-- *Layered System*: The system consists of multiple layers such that each layer only sees the immediate layer with which it is interacting.
-- *Uniform interface*:  It defines a interface constraint between the client and the server.Request and responses use HTTP and HTTPS as transfer protocol. Request uses HTTP verbs like GET, PUT and so on. Response consists of HTTP status codes like 200, 404 etc.
-- *Code on demand*: This constraint is optional. The server can temporarily extend client by downloading the logic from the server to the client. 
+- *ISO/IEC/IEEE 42010 definition of “architecture”*: Fundamental concepts or properties of a system in its environment embodied in its elements, relationships, and in the principles of its design and evolution.
+- *IEEE 1471 definition of “software architecture”*: The fundamental organization of a system embodied in its components, their relationships to each
+other, and to the environment, and the principles guiding its design and evolution.
+- *SEI / [Bass+2012] definition of “software architecture”*: The software architecture of a system is a set of structures needed to reason about the system which comprise software elements, relations among them and the properties of both.     
 
 
 
