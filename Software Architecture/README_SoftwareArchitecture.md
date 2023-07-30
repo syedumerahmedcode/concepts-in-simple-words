@@ -20,19 +20,30 @@ What do some of the terms mean:
 - _Decomposition of larger things into smaller things_: If a problem is too large to handle all at once, break it down into more manageable units.  
 
 
-**Goals and benefit of Software Architecture**
+**Goals and benefits of Software Architecture**
 
 Following are the main goals and/or benefits that a software architect should target.
 
 - Support the design, implementation, maintenance and operations of systems.
 - Achieve quality requirements such as reliability, maintainability, changeability, security etc.
 - Achieve functional requirements.
-- Ensure system structure is understood by all relevant stakeholders.
+- Ensure system structure is understood by all relevant stake holders.
 - Systematically reduce complexity.
 - Specify architecturally relevant guidelines for implementation and operation.
 
 Essentially, what is software architecture good for.
-  
+
+- How can a software architect achieve **quality** goal? By taking _global_ design decisions which spans several components or parts of the system.
+
+- A software architect normally do not predefine or prescribe every little detail of every component or technical concept, but rather focus on important elements of the system.
+
+- What is **conceptual integrity** and why is it important for a software architect to achieve? _Conceptual integrity_ means the design/architecture of a system follows a consistent set of rules or decisions (e.g. in UNIX mostly everything is a file, or in LISP everything is a list).     
+
+Conceptual integrity (or  consistency) is a necessary prerequisite for _understandability_ and _maintainability_ and it is a substitute or synonym for _appropriate standardization_.
+
+
+
+
 
  
 
