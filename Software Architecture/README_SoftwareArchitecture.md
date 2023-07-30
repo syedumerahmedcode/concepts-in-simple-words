@@ -18,6 +18,22 @@ What do some of the terms mean:
 - _Architecture decision_: A decision that helps in the evolution of an architecture.
 - _Cross-cutting concerns_: Rules valid at several locations or points throughout the system and its development.
 - _Decomposition of larger things into smaller things_: If a problem is too large to handle all at once, break it down into more manageable units.  
+
+
+**Goals and benefit of Software Architecture**
+
+Following are the main goals and/or benefits that a software architect should target.
+
+- Support the design, implementation, maintenance and operations of systems.
+- Achieve quality requirements such as reliability, maintainability, changeability, security etc.
+- Achieve functional requirements.
+- Ensure system structure is understood by all relevant stakeholders.
+- Systematically reduce complexity.
+- Specify architecturally relevant guidelines for implementation and operation.
+
+Essentially, what is software architecture good for.
+  
+
  
 
 
