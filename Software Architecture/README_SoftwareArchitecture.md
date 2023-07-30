@@ -42,6 +42,13 @@ Essentially, what is software architecture good for.
 Conceptual integrity (or  consistency) is a necessary prerequisite for _understandability_ and _maintainability_ and it is a substitute or synonym for _appropriate standardization_.
 
 
+**Software architecture in the software life cycle**
+
+- Determine the affects of changes in functional requirement, quality requirement, technologies or system requirement in relation to software architecture.  
+- Make know the affects between IT-systems and the supported business and operational processes.
+
+- _The software lifecycle_
+The software life cycle describes all phases of a software product, starting with its planning, through its development and use, and ultimately its retirement.
 
 
 
